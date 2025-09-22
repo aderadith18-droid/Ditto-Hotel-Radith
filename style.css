@@ -1,0 +1,376 @@
+.aboreto {
+    font-family: "Aboreto";
+}
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar-brand img {
+    height: 40px;
+}
+
+.btn-outline-primary {
+    color: #5E4728;
+    border-color: #5E4728;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #5E4728;
+    border-color: #5E4728;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    min-height: 350px;
+    background: url('AU/foto awal.png') no-repeat center center/cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Booking Form (dibuat flex baris) */
+.booking-form {
+    background: rgba(94, 71, 40, 0.95);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.booking-form label {
+    font-size: 0.9rem;
+}
+
+.booking-form .form-control,
+.booking-form .form-select {
+    height: 50px;
+    background-color: #5E4728;
+    color: #fff;
+    border: none;
+}
+
+.booking-form .form-select option {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-book {
+    height: 50px;
+    justify-content: right;
+    background-color: #5E4728;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0 25px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-book:hover {
+    background-color: #fff;
+    color: #5E4728;
+}
+body {
+  background-color: #f8f5f1;
+  font-family: 'aboreto', serif;
+}
+
+.about-title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.highlight-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sub-title {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.about-desc {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.signature {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.about-images img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+  object-fit: cover;
+}
+
+.about-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* jarak antar gambar */
+}
+.btn-primary{
+    background-color: #5E4728;
+    border-color: #5E4728;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #5E4728;
+    border-color: #5E4728;
+}
+.carousel {
+  position: relative;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: -60px; /* Atur sesuai kebutuhan */
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pagination-dot {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.pagination-dot.active {
+    background-color: #5E4728 !important;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5a3824;
+  color: #f5e5d0;
+  padding: 60px 100px;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  font-family: 'Serif';
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  color: #f5e5d0;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: #f5e5d0;
+  margin-right: 10px;
+  font-size: 24px;
+}
+img {
+  width: 100%; /* Gambar menyesuaikan lebar wadahnya */
+  height: auto;
+}
+.room-overlay {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    transition: background 0.3s ease;
+}
+
+.room-card:hover .room-overlay {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+}
+
+/* Room Image Sizes */
+.room-img-small {
+    height: 280px;
+    object-fit: cover;
+}
+
+.room-img-large {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Performance Optimization */
+.room-card img {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.room-card:hover img {
+    transform: scale(1.05);
+}
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width: 991px) {
+  .service-card {
+    margin-top: 40px !important;
+    width: 100% !important;
+  }
+  .carousel-indicators {
+    margin-top: 20px !important;
+  }
+  .footer-section {
+    padding-left: 0 !important;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .booking-form .col-6, .booking-form .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-images img {
+    padding-top: 0 !important;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .hero {
+    height: 60vh;
+    min-height: 250px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero {
+    height: 40vh;
+    min-height: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hero .container {
+    padding: 0 5px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .booking-form {
+    padding: 4px;
+    border-radius: 6px;
+    max-width: 100%;
+  }
+  .booking-form .form-label {
+    font-size: 0.7rem;
+    margin-bottom: 2px;
+  }
+  .booking-form .form-control,
+  .booking-form .form-select {
+    height: 32px;
+    font-size: 0.8rem;
+    padding: 2px 6px;
+  }
+  .btn-book {
+    height: 32px;
+    font-size: 0.85rem;
+    padding: 0 6px;
+  }
+}
+@media (max-width: 575px) {
+  .hero h1.display-4 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .hero p.lead {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+}
+@media (max-width: 575px) {
+  /* Hero section text */
+  .hero h1.display-4 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .hero p.lead {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  /* Footer section */
+  .footer-section {
+    text-align: center;
+    padding-left: 0 !important;
+    margin-bottom: 1.5rem;
+  }
+  .footer-section h3 {
+    font-size: 1.2rem;
+  }
+  .footer-section p,
+  .footer-section ul,
+  .footer-section ul li,
+  .footer-section ul li a {
+    font-size: 0.95rem;
+  }
+  .footer-section ul {
+    padding-left: 0;
+  }
+  .social-icons iconify-icon {
+    font-size: 1.2rem !important;
+    margin: 0 4px;
+  }
+}
