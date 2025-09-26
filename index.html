@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel Website Slicing 2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+  <div class="container-fluid d-flex align-items-center">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="AU/logo (1).png" alt="Logo" class="img-fluid" style="max-height: 40px;">
+      <span style="color: #5E4728; margin-left: 8px;">DITTO HOTEL</span>
+    </a>
+    <!--Hamburger-->
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse aboreto justify-content-between" id="navbarNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="full-page/aboutus.html">ABOUT US</a></li>
+        <li class="nav-item"><a class="nav-link" href="full-page/room.html">ROOMS</a></li>
+        <li class="nav-item"><a class="nav-link" href="full-page/gallery.html">GALLERY</a></li>
+        <li class="nav-item"><a class="nav-link" href="full-page/facilities.html">FACILITIES</a></li>
+        <li class="nav-item"><a class="nav-link" href="full-page/contactus.html">CONTACT US</a></li>
+      </ul>
+      <div class="d-flex">
+        <a href="https://secure.guestpro.net/uma-villas/booking" class="btn btn-outline-primary me-2" type="button">BOOKING</a>
+      </div>
+    </div>
+  </div>
+</nav>
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center aboreto" id="home">
+    <div class="container text-center text-white" data-aos="zoom-in" data-aos-duration="1000">
+      <h1 class="display-4 fw-light">DITTO HOTEL</h1>
+      <p class="lead fw-light">The Best Hotel For Your Family</p>
+  </section>
+
+      <!-- Booking Form -->
+       <div class="container" style="background-color: #F3EEE7; padding: 20px;margin-top: -50px; max-width: 100%;  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+      <form class="booking-form mt-5 row g-2 mx-auto justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-lg-2 col-md-4 col-12 mb-2">
+          <label class="form-label text-white-50">CHECK IN</label>
+          <input type="date" class="form-control" value="2025-06-15">
+        </div>
+        <div class="col-lg-2 col-md-4 col-12 mb-2">
+          <label class="form-label text-white-50">CHECK OUT</label>
+          <input type="date" class="form-control" value="2025-06-18">
+        </div>
+        <div class="col-lg-2 col-md-4 col-12 mb-2">
+          <label class="form-label text-white-50">ADULT</label>
+          <select class="form-select">
+            <option>1 PERSON</option>
+            <option>2 PERSON</option>
+            <option>3 PERSON</option>
+          </select>
+        </div>
+        <div class="col-lg-2 col-md-4 col-12 mb-2">
+          <label class="form-label text-white-50">CHILD</label>
+          <select class="form-select">
+            <option>1 CHILD</option>
+            <option>2 CHILD</option>
+            <option>3 CHILD</option>
+          </select>
+        </div>
+        <div class="col-lg-2 col-md-4 col-12 d-flex align-items-end mb-2">
+          <a href="https://secure.guestpro.net/uma-villas/booking" type="submit" class="btn btn-book w-100">CHECK NOW</a>
+        </div>
+      </form>
+</div>
+      <!-- End Booking Form -->
+    </div>
+  </section>
+  <!-- ABOUT US -->
+  <section style="background-color: #F3EEE7; padding-top: 50px;" id="aboutus">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h1 class="about-title fw-bold" data-aos="fade-up" data-aos-duration="1000">ABOUT US</h1>
+      </div>
+
+      <div class="row align-items-center" style="padding-top: 100px;"data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-lg-6">
+          <p class="sub-title" data-aos="fade-up" data-aos-duration="1000">WELCOME TO DITTO HOTEL</p>
+          <h2 class="highlight-title mb-3" data-aos="fade-up" data-aos-duration="1000">OUR HOTEL HAS BEEN PRESENT FOR OVER 20 YEARS.</h2>
+          <p class="mb-4" data-aos="fade-up" data-aos-duration="1000">WE MAKE THE BEST FOR ALL OUR CUSTOMERS.</p>
+          <p class="mb-4 about-desc poppins fw-regular" data-aos="fade-up" data-aos-duration="1000">
+            Our Objective At Ditto Hotel Is To Bring Together Our Visitor's Societies And Spirits With Our
+            Own,Communicating Enthusiasm And Liberality In The Food We Share.Official Chef And Owner Radith Ganteng
+            Superbly Creates A Blend Of Lebanese,Levantine,Mediterranean Motivated Food Blended In With New York
+            Mentality.Delightful Herbs And Flavors Consolidate Surfaces To Pacify Wide Based Palates.
+          </p>
+          <a type="button" href="full-page/aboutus.html" class="btn btn-primary" data-aos="fade-up" data-aos-duration="1000">READ MORE</a>
+
+          <div class="d-flex align-items-center pt-4" data-aos="fade-up" data-aos-duration="1000">
+            <img src="AU/elpserdith.png" alt="Profile" class="profile-img">
+            <div>
+              <h6 class="mb-0" data-aos="fade-up" data-aos-duration="1000">RADITH GANTENG</h6>
+              <small class="poppins fw-bold" style="color: #5E4728;" data-aos="fade-up" data-aos-duration="1000">CEO & FOUNDER</small>
+            </div>
+          </div>
+          <div class="signature" data-aos="fade-up" data-aos-duration="1000">Radith Ganteng</div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="about-images">
+            <div class="row g-2">
+              <div class="col-6" data-aos="fade-right" data-aos-duration="1000">
+                <img src="AU/AU 1.png" alt="Hotel lobby" class="img-fluid mb-2" />
+              </div>
+              <div class="col-6" data-aos="fade-left" data-aos-duration="1000">
+                <img src="AU/AU 2.png" alt="Hotel room" class="img-fluid mb-2 pt-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+  </section>
+  <!-- FAVORITE ROOMS -->
+  <section style="padding-top: 50px;" id="room">
+    <div class="container py-5 ">
+      <div class="text-center mb-5">
+        <h1 class="about-title fw-bold" data-aos="fade-up" data-aos-duration="1000">OUR FAVORITE ROOMS</h1>
+        <h5 class="fw-regular" style="letter-spacing: 2px;" data-aos="fade-up" data-aos-duration="1000">THE BEST FOR YOUR FAMILY</h5>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4 col-md-6 col-sm-12 mb-4">
+                <div class="card position-relative position-relative service-card" style="width: 25rem; margin-top: 150px; border-radius: 25px;">
+                  <img src="Fav Room/gmbar1.png" class="card-img-top pt-5 px-4 img-fluid" alt="..." data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">DELUXE ROOM</h5>
+                    <p class="card-text">120$/NIGHT</p>
+                    <a href="https://secure.guestpro.net/uma-villas/booking" type="button" class="btn btn-primary">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card position-relative service-card" style="width: 25rem; margin-top: 150px; border-radius: 25px;">
+                  <img src="Fav Room/gmbar2.png" class="card-img-top pt-5 px-4 img-fluid" alt="..." data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">SUITE ROOM</h5>
+                    <p class="card-text">150$/NIGHT</p>
+                    <a href="https://secure.guestpro.net/uma-villas/booking" type="button" class="btn btn-primary">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card position-relative service-card" style="width: 25rem; margin-top: 150px; border-radius: 25px;">
+                  <img src="Fav Room/gmbar3.png" class="card-img-top pt-5 px-4" alt="..." data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">SUPERIOR ROOM</h5>
+                    <p class="card-text">180$/NIGHT</p>
+                    <a href="https://secure.guestpro.net/uma-villas/booking" type="button" class="btn btn-primary">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card position-relative service-card" style="width: 25rem; margin-top: 150px; border-radius: 25px;;">
+                  <img src="Fav Room/gmbar4.png" class="card-img-top pt-5 px-4" alt="..." data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">FAMILY ROOM</h5>
+                    <p class="card-text">200$/NIGHT</p>
+                    <a href="https://secure.guestpro.net/uma-villas/booking" type="button" class="btn btn-primary">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card position-relative service-card" style="width: 25rem; margin-top: 150px; border-radius: 25px;;">
+                  <img src="Fav Room/gmbar5.png" class="card-img-top pt-5 px-4" alt="..." data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">STANDARD ROOM</h5>
+                    <p class="card-text">110$/NIGHT</p>
+                    <a href="https://secure.guestpro.net/uma-villas/booking" type="button" class="btn btn-primary">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                  <div class="card position-relative service-card" style="width: 25rem; margin-top: 150px; border-radius: 25px;;">
+                  <img src="Fav Room/gmbar6.png" class="card-img-top pt-5 px-4" alt="..." data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">EXECUTIVE ROOM</h5>
+                    <p class="card-text">320$/NIGHT</p>
+                    <a href="https://secure.guestpro.net/uma-villas/booking" type="button" class="btn btn-primary">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card position-relative service-card" style="width: 25rem; margin-top: 150px; border-radius: 25px;">
+                  <img src="Fav Room/gmbar7.png" class="card-img-top pt-5 px-4" alt="..." data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">JUNIOR ROOM</h5>
+                    <p class="card-text">150$/NIGHT</p>
+                    <a href="https://secure.guestpro.net/uma-villas/booking" type="button" class="btn btn-primary">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card position-relative service-card" style="width: 25rem; margin-top: 150px; border-radius: 25px;;">
+                  <img src="Fav Room/gmbar8.png" class="card-img-top pt-5 px-4" alt="..." data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">TWIN ROOM</h5>
+                    <p class="card-text">190$/NIGHT</p>
+                    <a href="https://secure.guestpro.net/uma-villas/booking" type="button" class="btn btn-primary">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card position-relative service-card" style="width: 25rem; margin-top: 150px; border-radius: 25px;;">
+                  <img src="Fav Room/gmbar9.png" class="card-img-top pt-5 px-4" alt="..." data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">PRESIDENTIAL ROOM</h5>
+                    <p class="card-text">600$/NIGHT</p>
+                    <a href="https://secure.guestpro.net/uma-villas/booking" type="button" class="btn btn-primary">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+            class="active pagination-dot" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="pagination-dot"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="pagination-dot"
+            aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- GALLERY -->
+  <section style="background-color: #F3EEE7;" id="gallery">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h1 class="about-title fw-bold" data-aos="fade-up" data-aos-duration="1000">GALLERY</h1>
+        <h5 class="fw-regular" style="letter-spacing: 2px;" data-aos="fade-up" data-aos-duration="1000">WHERE EVERY DETAIL INSPIRES</h5>
+          <div class="row align-items-start pt-4">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 2.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 3.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="row align-items-start pt-4">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 5.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 6.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 7.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="row align-items-start pt-4">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 9.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 10.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 11.png" class="img-fluid" alt="">
+            </div> 
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 12.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="row align-items-start pt-4">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 13.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 14.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 15.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 room-card mb-4 room-card position-relative overflow-hidden h-100 transition-all" data-bs-toggle="tooltip" data-aos="fade-up" data-aos-duration="1000">
+              <img src="Gallery/galery 16.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <a type="button" href="full-page/gallery.html" class="btn btn-primary mt-5" data-aos="fade-up" data-aos-duration="1000">View More</a>
+        </div>
+        </div>
+  </section>
+  <!-- FACILITIES -->
+  <section id="facilities">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h1 class="about-title fw-bold"data-aos="fade-up" data-aos-duration="1000">FACILITIES</h1>
+        <h5 class="fw-regular" style="letter-spacing: 2px; padding-bottom: 100px;"data-aos="fade-up" data-aos-duration="1000">FACILITIES THAT COMPLETE YOUR
+          STAY</h5>
+        <div class="my-5">
+          <div class="row g-3">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <div class="border rounded-2 p-3 h-100">
+                <div class="facility-item text-start">
+                  <div class="facility-icon mb-3">
+                    <iconify-icon icon="iconoir:gym" style="font-size: 3rem; color: #5E4728;"></iconify-icon>
+                  </div>
+                  <h5 class="mb-3 text-dark">GYM</h5>
+                  <p class="nav-barlow text-muted poppins" style="letter-spacing: 1px;">
+                    Our Fitness Center Is Equipped With Modern Cardio And Strength-Training Equipment, Designed
+                    To Keep You Active And Energized During Your Stay
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <div class="border rounded-2 p-3 h-100">
+                <div class="facility-item text-start">
+                  <div class="facility-icon mb-3">
+                    <iconify-icon icon="material-symbols:wifi" style="font-size: 3rem; color: #5E4728;">
+                    </iconify-icon>
+                  </div>
+                  <h5 class="mb-3 text-dark">WI-FI</h5>
+                  <p class="nav-barlow text-muted poppins" style="letter-spacing: 1px;">
+                    Stay Connected With Our High-Speed Wi-Fi,<br>Available Throughout The Hotel For Your
+                    Convenience
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <div class="border rounded-2 p-3 h-100">
+                <div class="facility-item text-start">
+                  <div class="facility-icon mb-3">
+                    <iconify-icon icon="material-symbols:spa-outline" style="font-size: 3rem; color: #5E4728;">
+                    </iconify-icon>
+                  </div>
+                  <h5 class="mb-3 text-dark">SPA</h5>
+                  <p class="nav-barlow text-muted poppins" style="letter-spacing: 1px;">Relax And Rejuvenate At
+                    Our Spa With A Variety Of Soothing Treatments Designed For Your Well-Being <br>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <div class="border rounded-2 p-3 h-100">
+                <div class="facility-item text-start">
+                  <div class="facility-icon mb-3">
+                    <iconify-icon icon="mingcute:car-line" style="font-size: 3rem; color: #5E4728;">
+                    </iconify-icon>
+                  </div>
+                  <h5 class="mb-3 text-dark">PARKING SPACE</h5>
+                  <p class="nav-barlow text-muted poppins" style="letter-spacing: 1px;">
+                    Enjoy The Convenience Of Our Spacious And Secure
+                    Parking Area, Available For All Guests
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <div class="border rounded-2 p-3 h-100">
+                <div class="facility-item text-start">
+                  <div class="facility-icon mb-3">
+                    <iconify-icon icon="mingcute:swimming-pool-fill" style="font-size: 3rem; color: #5E4728;">
+                    </iconify-icon>
+                  </div>
+                  <h5 class="mb-3 text-dark">SWIMMING POOL</h5>
+                  <p class="nav-barlow text-muted poppins" style="letter-spacing: 1px;">
+                    Take A Refreshing Dip In Our Outdoor Swimming
+                    Pool,The Perfect Spot To Relax And Unwind
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <div class="border rounded-2 p-3 h-100">
+                <div class="facility-item text-start">
+                  <div class="facility-icon mb-3">
+                    <iconify-icon icon="ion:bed" style="font-size: 3rem; color: #5E4728;">
+                    </iconify-icon>
+                  </div>
+                  <h5 class="mb-3 text-dark">ROOM SERVICE</h5>
+                  <p class="nav-barlow text-muted poppins" style="letter-spacing: 1px;">
+                    Enjoy The Comfort Of Your Room With Our 24-Hour Room
+                    Service, Offering A Variety Of Meals And Beverages Delivered
+                    Right To Your Door.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <div class="border rounded-2 p-3 h-100">
+                <div class="facility-item text-start">
+                  <div class="facility-icon mb-3">
+                    <iconify-icon icon="fluent-mdl2:breakfast" style="font-size: 3rem; color: #5E4728;">
+                    </iconify-icon>
+                  </div>
+                  <h5 class="mb-3 text-dark">BREAKFAST</h5>
+                  <p class="nav-barlow text-muted poppins" style="letter-spacing: 1px;">
+                    Start Your Day With Our Delicious Breakfast
+                    Selection, Featuring Both Local And International Dishes
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <div class="border rounded-2 p-3 h-100">
+                <div class="facility-item text-start">
+                  <div class="facility-icon mb-3">
+                    <iconify-icon icon="iconoir:golf" style="font-size: 3rem; color: #5E4728;">
+                    </iconify-icon>
+                  </div>
+                  <h5 class="mb-3 text-dark">GOLF</h5>
+                  <p class="nav-barlow text-muted poppins" style="letter-spacing: 1px;">
+                    Experience A Relaxing Round Of Golf On Our Well-Maintained
+                    Course, Perfect For Both Beginners And Professionals
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <div class="border rounded-2 p-3 h-100">
+                <div class="facility-item text-start">
+                  <div class="facility-icon mb-3">
+                    <iconify-icon icon="maki:cinema" style="font-size: 3rem; color: #5E4728;">
+                    </iconify-icon>
+                  </div>
+                  <h5 class="mb-3 text-dark">CINEMA</h5>
+                  <p class="nav-barlow text-muted poppins" style="letter-spacing: 1px;">
+                    Enjoy The Latest Movies In Our Private Cinema, Designed
+                    For Your Comfort And Entertainment
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <a type="button" href="full-page/facilities.html" class="btn btn-primary mt-5" data-aos="fade-up" data-aos-duration="1000">View More</a>
+</div>
+
+  </section>
+  <!-- CONTACT US -->
+  <footer class="footer" id="contactus">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12 footer-section poppins mb-4">
+        <h3 data-aos="fade-up" data-aos-duration="1000">DITTO HOTEL</h3>
+        <p data-aos="fade-up" data-aos-duration="1000">
+          Welcome to the DITTO HOTEL. Our hotel has been present for over 20 years.
+          We make the best for all our customers. Our objective at DITTO HOTEL is
+          to bring together our visitor's societies and spirits with our own.
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 footer-section poppins mb-4" style="text-align: center;">
+        <h3 data-aos="fade-up" data-aos-duration="1000">EXPLORE</h3>
+        <ul class="list-unstyled">
+          <li data-aos="fade-up" data-aos-duration="1000"><a href="index.html">Home</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000"><a href="full-page/aboutus.html">About Us</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000"><a href="full-page/room.html">Rooms</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000"><a href="full-page/gallery.html">Gallery</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000"><a href="full-page/facilities.html">Facilities</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000"><a href="full-page/contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-12 col-12 footer-section poppins mb-4">
+        <h3 data-aos="fade-up" data-aos-duration="1000">CONTACT</h3>
+        <p data-aos="fade-up" data-aos-duration="1000">Jl. Merpati No. 23, Kelurahan Menteng,
+          Kecamatan Menteng, Kota Jakarta Pusat,
+          DKI Jakarta 10310, Indonesia</p>
+        <p data-aos="fade-up" data-aos-duration="1000">radithganteng@gmail.com</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/radithdinatha/"><iconify-icon icon="mdi:instagram" style="font-size: 1.5rem;" data-aos="fade-up" data-aos-duration="1000"></iconify-icon></a>
+          <a href="https://api.whatsapp.com/send?phone=62895623311279"><iconify-icon icon="mdi:whatsapp" style="font-size: 1.5rem;" data-aos="fade-up" data-aos-duration="1000"></iconify-icon></a>
+          <a href="https://id.pinterest.com/fabuzn/"><iconify-icon icon="mdi:pinterest" style="font-size: 1.5rem;" data-aos="fade-up" data-aos-duration="1000"></iconify-icon></a>
+          <a href="https://www.facebook.com/radith.radith.39982/?locale=id_ID"><iconify-icon icon="mdi:facebook" style="font-size: 1.5rem;" data-aos="fade-up" data-aos-duration="1000"></iconify-icon></a>
+          <a href="https://www.youtube.com/@xclouds170"><iconify-icon icon="mdi:youtube" style="font-size: 1.5rem;" data-aos="fade-up" data-aos-duration="1000"></iconify-icon></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+</body>
+
+</html>
